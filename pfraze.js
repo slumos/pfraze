@@ -36,7 +36,6 @@ var pfraze_spews = [
 
 function makedAPfraze () {
   var spew = _.first(_.sample(pfraze_spews, 1));
-  console.log(spew);
   return spewer.spew(spew);
 }
   
